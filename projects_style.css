@@ -337,6 +337,7 @@ section {
 
 .section-heading {
     font-size: 28px;
+    align-items: Center;
     margin-bottom: 1rem;
     color: #1b79b7;
     font-weight: bold;
@@ -397,12 +398,10 @@ section {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
 }
-
 .container {
     max-width: 800px;
     margin: 40px auto;
