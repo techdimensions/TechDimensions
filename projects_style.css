@@ -90,6 +90,23 @@ main {
 
 }
 
+.columnprojects
+{
+      float: left;
+    width: 47%;
+    padding: 0 15px;
+}
+@media screen and (max-width: 600px) {
+    .columnprojects {
+        width: 100%;
+        display: block;
+                margin-bottom: 20px; /* Add margin to create space between cards */
+
+        ;
+    }
+}
+
+
 /* Remove extra left and right margins, due to padding */
 .row {
     margin: 10px 10px;
