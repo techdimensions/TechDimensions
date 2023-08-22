@@ -1,0 +1,418 @@
+/* Use Google Fonts to import advanced and professional fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Apply advanced fonts to different elements */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fbfbfb;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+}
+
+
+header {
+    background-color: #1b79b7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    height: 50px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    /* Apply Poppins font to h1 */
+}
+
+h3 {
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    /* Apply Roboto font to h3 */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links li:first-child {
+    margin-left: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #FF6B6B;
+}
+
+main {
+    overflow: hidden;
+    /* overflow-y: hidden; */
+    height: calc(100vh);
+    scroll-behavior: smooth;
+    /* Adjust the height based on your header height */
+}
+
+
+.column {
+    float: left;
+    width: 47%;
+    padding: 0 15px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+    margin: 10px 10px;
+    margin-left: 0%;
+    align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 50px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+
+.idea-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 2rem;
+    animation: fadeIn 2s ease;
+    align-items: right;
+}
+
+/* Add colors and adjust fonts for the idea cards */
+.idea-card {
+    background-color: #ededed;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 600ms;
+    font-family: 'Font2', Georgia, 'Times New Roman';
+}
+
+.idea-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px #2404d757;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.idea-card project-card {
+    background-color: #41b691;
+    color: #333;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: 'Font2', Georgia, 'Times New Roman';
+}
+
+
+.company-motive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-color: #ededed;
+    font-style: normal;
+    color: #060505;
+    font-family: 'Font2', Georgia, 'Times New Roman';
+}
+
+.motive-text {
+    flex: 1;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+.motive-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.motive-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(252, 252, 252, 0.1);
+}
+
+/* Existing styles remain unchanged */
+
+/* Existing styles remain unchanged */
+
+.project-info {
+    display: none;
+    margin-top: 20px;
+}
+
+.project-info.show {
+    display: block;
+}
+
+.project-info h3 {
+    margin-top: 10px;
+}
+
+.project-info ul {
+    margin: 10px 0;
+}
+
+.project-info img {
+    max-width: 50%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Existing styles remain unchanged */
+
+main {
+    min-height: calc(100vh - 50px);
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+/* Add styles for the footer */
+footer {
+    height: 200px;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #094c78;
+    color: #fff;
+    text-align: center;
+
+
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 30px;
+    text-align: right;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.section-heading {
+    font-size: 28px;
+    margin-bottom: 1rem;
+    color: #1b79b7;
+    font-weight: bold;
+    font-family: 'Font2', sans-serif;
+}
+
+.section-content {
+    font-size: 16px;
+    font-family: 'Font1', sans-serif;
+}
+
+.section-content p {
+    margin-bottom: 1rem;
+}
+
+.section-content ul {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.section-content li {
+    list-style: disc;
+}
+
+.card-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: 7%;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideInFromLeft 2s ease 0s 1;
+    font-family: 'Font2', sans-serif;
+}
+
+.container img {
+    animation: fadeIn 1s ease-in 0s;
+}
+
+h1 {
+    font-size: 31px;
+    color: #1f64c4;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: justify;
+    animation: slideInFromLeft 2s ease 0s 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.intro-paragraph {
+    font-weight: none;
+    text-align: justify;
+    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: #060505;
+}
+
+.invest-now-btn {
+    background-color: #ff9f31;
+    /* Sky blue color */
+    color: #fff;
+    /* White text color */
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.invest-now-btn:hover {
+    background-color: #35d5f5;
+    /* Darker shade on hover */
+}

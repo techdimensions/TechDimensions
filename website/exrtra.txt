@@ -1,0 +1,58 @@
+<!-- Project 1 -->
+<div class="section-heading">Our Project Ideas </div><br>
+<div class="row">
+    <div class="column">
+        <div class="idea-card project-card">
+            <a href="projects.html">
+                <h3 class="project-title">SelfiChat</h3>
+            </a>
+            <div class="project-info">
+                <h3>Name of the Idea</h3>
+                <p>
+                    This is a placeholder text describing the name and details of Project 1. It is an innovative
+                    concept that aims to revolutionize how people interact with technology.
+                </p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <!-- Add more features as needed -->
+                </ul>
+                <img src="images/about_us_logo.png" alt="Feature 1">
+                <img src="images/our_process_logo.png" alt="Feature 2">
+                <!-- Add more images for features -->
+                <button class="btn btn-primary">Contact Us</button>
+            </div> <!-- close div project project info -->
+
+        </div> <!-- idea card div  -->
+
+    </div> <!-- close coloumn card div  -->
+
+    <div class="column">
+
+        <div class="idea-card project-card">
+            <h2 class="project-title">Project 2</h2>
+            <div class="project-info">
+                <h3>Name of the Idea</h3>
+                <p>
+                    This is a placeholder text describing the name and details of Project 1. It is an
+                    innovative
+                    concept that aims to revolutionize how people interact with technology.
+                </p>
+                <h3>Features</h3>
+                <ul>
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <!-- Add more features as needed -->
+                </ul>
+                <img src="images/project1-image1.jpg" alt="Feature 1">
+                <img src="images/project1-image2.jpg" alt="Feature 2">
+                <!-- Add more images for features -->
+                <button class="btn btn-primary">Contact Us</button>
+            </div>
+        </div>
+    </div>
+
+</div> <!--row end-->
